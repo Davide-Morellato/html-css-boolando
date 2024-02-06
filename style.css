@@ -36,5 +36,60 @@ img{
     width: calc(4 * 100% / 12);
 }
 
+.card-content{
+    border: 2px dashed black;
+    position: relative;
+}
+
+.card-img{
+    display: block;
+}
+
+.discount, .sustain, .b-heart{
+    display: inline-block;
+    padding: 5px;
+    position: absolute;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.discount{
+    background-color: red;
+    color: white;
+    left: 0;
+    bottom: 40px;
+}
+
+.sustain{
+    background-color: rgb(47, 157, 47);
+    color: white;
+    bottom: 40px;
+    left: 40px;
+    margin-left: 5px;
+}
+
+.b-heart{
+    background-color: white;
+    top: 10px;
+    right: 0;
+}
+
+.price{
+    color: red;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.price-cout{
+    text-decoration: line-through;
+    color: black;
+    font-weight: 400;
+    font-size: small;
+}
 
 
+
+
+.debug.card{
+    border: 2px dashed black;
+}
