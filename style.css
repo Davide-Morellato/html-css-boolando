@@ -3,7 +3,7 @@
 *{
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
 }
 
 ul, ol, menu{
@@ -34,6 +34,7 @@ img{
 
 .column{
     width: calc(4 * 100% / 12);
+    padding: 10px;
 }
 
 .card-content{
