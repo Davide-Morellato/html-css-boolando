@@ -19,13 +19,13 @@ img{
     max-width: 100%;
 }
 
-/* Structure */
 
 .container{
     max-width: 1024px;
     margin: 0 auto;
-    padding: 0 24px;
 }
+
+/* STRUCTURE */
 
 .row{
     display: flex;
@@ -36,6 +36,47 @@ img{
     width: calc(4 * 100% / 12);
     padding: 10px;
 }
+
+/* HEADER */
+
+.main-header{
+    background-color: #FF6A00;
+    padding: 24px 0;
+}
+
+.f-col, .s-col, .t-col{
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    gap: 10px;
+}
+
+.s-col{
+    flex-grow: 1; 
+}
+
+.logo{
+    vertical-align: middle;
+}
+
+.logo-title{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.border{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 100px;
+    background-color: rgb(0, 0, 0);
+}
+
+
+/* MAIN */
 
 .card-content{
     position: relative;
@@ -106,7 +147,6 @@ img{
 }
 
 
-
 /* HOVER */
 
 .card-hover{
@@ -126,11 +166,36 @@ img{
 }
 
 
+/* FOOTER */
 
+.main-footer{
+    background-color: #1A1A1A;
+    padding: 24px;
+}
+
+.first-col, .second-col{
+    color: white;
+    margin: 0;
+}
+
+.first-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.credits{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mbottom{
+    padding-bottom: 10px;
+    margin: 0;
+}
 
 
 /* DEBUG */
 
-.debug{
+.debug.container{
     border: 2px dashed black;
 }
